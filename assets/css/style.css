@@ -1,18 +1,31 @@
-/* Asterisk wildcard selector to overrive default styling*/
+/* Asterisk wildcard selector to override default styling*/
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles*/
+    color: #3a3a3a;
+}
+
 /* Header style */
 header {
     background-color: lightcoral;
 }
+
 /* Main content style */
 main {
     background-color: lightblue;
+    /* Make the element take up most of the screen */
+    flex: 1 0 auto;
 }
+
 /* Footer style */
 footer {
     background-color: orange;
