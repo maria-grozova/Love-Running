@@ -90,6 +90,7 @@ main {
     background-color: lightblue;
     /* Make the element take up most of the screen */
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 /* Footer style */
