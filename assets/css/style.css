@@ -19,6 +19,11 @@ body {
     font-family: "Lato", sans-serif;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+}
+
 h1, h2, h3 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
@@ -199,6 +204,23 @@ main {
         line-height: 0;
     }
 
+/* Signup page */
+#signup {
+    background: url(../images/signup-image.webp) 75% / cover;
+    flex-grow: 1;
+}
+
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, .6);
+    margin: 20px 10%;
+    padding: 30px;
+}
+
+#signup-form h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
 
 /* Footer style */
 #social-networks {
