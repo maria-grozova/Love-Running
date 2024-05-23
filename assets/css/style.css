@@ -222,6 +222,32 @@ main {
     margin-bottom: 20px;
 }
 
+.text-input {
+    height: 25px;
+    width: 100%;
+    margin: 5px auto 20px;
+    background: transparent;
+    color: #fafafa;
+    text-align: center;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.radio-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.join-button {
+    border-radius: 2px;
+    background-color: #454b1b;
+    color: #fafafa;
+    font-size: 100%;
+    margin-top: 20px;
+    padding: 15px 32px;
+}
+
 /* Footer style */
 #social-networks {
     text-align: center;
