@@ -348,7 +348,7 @@ main {
 
     #signup-form {
         position: absolute;
-        top: 100px;
+        top: 150px;
         left: 10%;
         max-width: 400px;
     }
@@ -361,6 +361,15 @@ main {
         background-color: #fafafa;
         color: #454b1b;
     }
+}
+
+/* Media query: small height laptop/tablet viewport */
+
+@media screen and (max-height: 768px) {
+    #signup-form {
+        position: absolute;
+        top: 50px;
+}
 }
 
 /* Media query: laptops and larger */
