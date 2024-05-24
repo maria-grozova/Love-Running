@@ -19,11 +19,6 @@ body {
     font-family: "Lato", sans-serif;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-}
-
 h1, h2, h3 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
@@ -99,6 +94,9 @@ main {
     /* Make the element take up most of the screen */
     flex: 1 0 auto;
     margin-top: 47px;
+    /* enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
 }
 
 /* Hero section */
@@ -206,14 +204,16 @@ main {
 
 /* Signup page */
 #signup {
-    background: url(../images/signup-image.webp) 75% / cover;
+    background: url(../images/signup-image.webp);
+    background-size: cover;
+    background-position: 75%;
     flex-grow: 1;
+    padding: 20px 10% 0 10%;
 }
 
 #signup-form {
     color: #ffffff;
     background-color: rgba(60, 60, 60, .6);
-    margin: 20px 10%;
     padding: 30px;
 }
 
@@ -225,12 +225,12 @@ main {
 .text-input {
     height: 25px;
     width: 100%;
-    margin: 5px auto 20px;
+    margin: 5px 0 20px 0;
     background: transparent;
     color: #fafafa;
-    text-align: center;
     border: 1px solid #fafafa;
     border-radius: 2px;
+    padding: 0 5px;
 }
 
 .radio-buttons {
